@@ -85,7 +85,7 @@
                         let call = new XMLHttpRequest();
                         call.addEventListener("load", displayResult);
                         call.onerror = displayError;
-                        call.open("POST", "http://13.57.193.30/");
+                        call.open("POST", "https://script.google.com/macros/s/AKfycbxlJ1TT4s3jtKuo_vQzxX_3f1kfjmnh9LR6JuY4QnYwfjd9yk7Q41DAdhUdpEDAwWw/exec");
                         call.setRequestHeader("Content-Type", "Application/json");
                         call.send(JSON.stringify(payload));
                         x = 0; //when someone retries the payload x will be back to 0
